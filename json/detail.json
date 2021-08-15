@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Dastagir",
+    "title": "Delivery App",
+    "text":"We need delivery app but with a fun look. Our target is the user and the courier can use it easily",
+    "img": "img/images1.jpeg",
+    "time": "21 July",
+    "prize": "200"
+  },
+  {
+    "name": "John Smith",
+    "title": "E-commerce App",
+    "text":"We will build an e-commerce site that delivery goods to all over the places.",
+    "img": "img/images2.jpeg",
+    "time": "12 August",
+    "prize": "300"
+
+  },
+  {
+    "name": "Yusof MD",
+    "title": "Logo App",
+    "text":"We need Logo app for our clients with big budget. Our target is the user and the courier can use it.",
+    "img": "img/images3.jpeg",
+    "time": "01 Sept",
+    "prize": "240"
+
+  },
+  {
+    "name": "Mosas",
+    "title": "Yahoo App",
+    "text":"We need Yahoo App but with a fun look. Our target is the user and the courier can use it.",
+    "img": "img/images4.jpeg",
+    "time": "20 Jan",
+    "prize": "399"
+  }
+]

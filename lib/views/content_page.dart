@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_getx/routes/route_names.dart';
 import 'package:get/get.dart';
 
 import 'my_detail_page.dart';
@@ -21,8 +22,11 @@ class _ContentPageState extends State<ContentPage> {
     int _currentIndex  = 0;
     return
       Scaffold(
+        appBar: AppBar(
+          backgroundColor: Color(0xFFc5e5f3),
+        ),
         body: Container(
-          padding: const EdgeInsets.only( top:70),
+          //padding: const EdgeInsets.only( top:70),
           color:Color(0xFFc5e5f3),
           child: Column(
             children: [
@@ -139,7 +143,11 @@ class _ContentPageState extends State<ContentPage> {
                     itemCount: 4,
                     itemBuilder: (_, i){
                       return GestureDetector(
-
+                        onTap: (){
+                         // Get.to(()=>DetailPage());
+                         //Get.toNamed("/detail_page");
+                          Get.toNamed(RouteNames.getDetailPage());
+                        },
 
                         child: Container(
                           padding: const EdgeInsets.only(left: 20, top: 20),
@@ -291,7 +299,7 @@ class _ContentPageState extends State<ContentPage> {
                                         ),
                                         SizedBox(height: 5,),
                                         SizedBox(
-                                          width: 170,
+                                          width: 130,
                                           child: Text(
                                             "Text",
 
